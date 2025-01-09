@@ -2,7 +2,7 @@ name: template_custom-test Pipeline (Skyu Generated)
 'on':
   workflow_dispatch: {}
   repository_dispatch:
-    types: pipeline_922da4c8-9f80-4c8d-ae84-2dd6c9a9c1bc
+    types: pipeline_d6193e95-896b-4db7-add7-e69d563f185a
 env:
   ENCODED_PIPELINE_SECRET: ${{secrets.DEMOCRONJOB_TEMPLATE_CUSTOMTEST}}
   COMMIT_ID: ${{github.event.client_payload.commitId || github.sha || github.run_id}}
