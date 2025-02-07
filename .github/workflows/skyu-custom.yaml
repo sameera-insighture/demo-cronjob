@@ -194,6 +194,7 @@ jobs:
       - name: Custom Step
         run: echo "Hello from SkyU"
         uses: ss
+        if: test
     needs:
       - _status_testing
     permissions: write-all
