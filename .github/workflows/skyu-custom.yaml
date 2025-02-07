@@ -195,6 +195,7 @@ jobs:
         run: echo "Hello from SkyU"
         uses: ss
         if: test
+        id: ss
     needs:
       - _status_testing
     permissions: write-all
