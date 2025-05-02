@@ -9,6 +9,7 @@ env:
   BRANCH_NAME: >-
     ${{github.event.client_payload.branchName || github.event.branch ||
     github.ref_name}}
+  tessam: valsam
 jobs:
   _status-pending:
     name: _status-pending
